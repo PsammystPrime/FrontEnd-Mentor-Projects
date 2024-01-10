@@ -12,24 +12,63 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: navy;
+      font-size: large;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      padding-top: 5rem;
+      margin-bottom: 1rem;
+
+    
+    }
+    .info{
+      background-color:  hsl(228, 45%, 44%);
+      width: 22rem;
+      padding: 1rem 6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+    .stats{
+      display: flex;
+      gap: 30px;
+      margin-top: 50px;
+      align-self: flex-start;
+
+    }
+    img{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    }
+    p{
+      color: rgb(134, 130, 130);
+      font-weight: lighter;
+    }
   </style>
 </head>
 <body>
-  <div class="info">
-    <h4>Get insights that help your business grow.</h4>
+  <div class="container">
+    <div class="info">
+      <h1>Get insights that help your business grow.</h1>
 
-    <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.</p>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
 
-    <div class="stats">
-      <div>10k+ companies</div>
-      <div>314 templates</div>
-      <div>12m+ queries</div>
+      <div class="stats">
+        <div>10k+ <br> companies</div>
+        <div>314 <br> templates</div>
+        <div>12m+ <br> queries</div>
+      </div>
     </div>
-  </div>
 
-  <img src="./images/image-header-desktop.jpg" alt="icon">
-  
+    <img src="./images/image-header-desktop.jpg" alt="icon">
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
