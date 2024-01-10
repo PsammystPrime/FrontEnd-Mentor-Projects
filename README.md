@@ -1,2 +1,2 @@
 # FrontEnd Mentor Projects
- Improving my Front-end skills by building real projects.
+ Frontend Mentor offers realistic coding challenges to enable developers horn their frontend skills with Projects
