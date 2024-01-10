@@ -37,18 +37,32 @@
     }
     .stats{
       display: flex;
-      gap: 30px;
+      gap: 80px;
       margin-top: 50px;
       align-self: flex-start;
 
     }
     img{
     border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;    
+    }
+    img::before{
+      flood-color: black;
     }
     p{
       color: rgb(134, 130, 130);
       font-weight: lighter;
+    }
+    .stats>div{
+      color: rgb(134, 130, 130);
+      font-weight: lighter;
+      font-size: small;
+    }
+    .stats>div>a{
+      font-size: x-large;
+      font-weight: bolder;
+      font-family: sans-serif;
+      color: antiquewhite;
     }
   </style>
 </head>
@@ -61,13 +75,16 @@
         experience, and overall efficiency.</p>
 
       <div class="stats">
-        <div>10k+ <br> companies</div>
-        <div>314 <br> templates</div>
-        <div>12m+ <br> queries</div>
+        <div><a>10k+</a> COMPANIES</div>
+        <div><a>314</a>  TEMPLATES</div>
+        <div><a>12M+</a>  QUERIES</div>
       </div>
     </div>
 
-    <img src="./images/image-header-desktop.jpg" alt="icon">
+      <img src="./images/image-header-desktop.jpg" alt="icon">
+
+
+    </div>
   </div>
 
   <div class="attribution">
